@@ -1,0 +1,194 @@
+body {
+    margin:0;
+    padding:0;
+    font-family: "Britannic Bold", serif;
+    font-weight:bold;
+    position: center;
+    background-color: black;
+    background-image: url('https://www.freevector.com/uploads/vector/preview/19290/Free_Sparkle_Background_Vector-06.jpg');
+    background-size: cover;
+}
+
+#moves, #level, #name, #title {
+    text-align:center;
+    background-color: #5B3203;
+    background-clip: border-box;
+    text-fill-color:transparent;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    font-size: 26px;
+}
+/*level 1,2,3*/
+#name, #title {
+    background-color: #1A0E01;
+    background-clip: border-box;
+    text-fill-color:transparent;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    font-size: 28px;
+}
+/*sokoban name*/
+canvas {
+    border:1px solid red;
+    z-index: auto;
+    position:center;
+    size: B4;
+    background-size: cover;
+}
+#box {
+    position: relative;
+    background-size: 300%;
+    width:310px;
+    /* height:300px; */
+    display:block;
+    margin:5px auto;
+    padding:0;
+}
+/*the set of the game board box and buttons */
+.fix {
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+#startCont, #nextLevel, #finished {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(205,220,210,0.65);
+    z-index: auto;
+    text-align:center;
+    font-size:50px;
+    font-weight:bold;
+    font-family: "Copperplate Gothic Bold", sans-serif;
+}
+#startIt, #congrats {
+    display: grid;
+    margin:70px auto;
+    color:#5B5B5B;
+    font-family: "Bodoni MT Black", serif;
+    position: center;
+
+/*/ this is title name welcome to sokoban/*/
+}
+button{
+    position:absolute;
+    width:60px;
+    height:50px;
+    font-size:16px;
+    font-weight:900;
+    font-family: Bahnschrift SemiBold, serif;
+    text-align:center;
+    outline:none;
+    background:#98FB98;
+
+    -webkit-appearance: button;
+    -webkit-writing-mode: horizontal-tb;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0;
+    text-shadow: none;
+    display: inline-block;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1px 6px;
+    border-width: 3px;
+    border-color: greenyellow;
+    border-image: initial;
+}
+/*up down left right 4 button*/
+button:hover {
+    background:#00FF7F;
+}
+/*up down left right 4 button*/
+#b3 {
+    top:345px;
+    left:48px;
+}
+#b4 {
+    top:345px;
+    left:200px;
+}
+#b2 {
+    top:400px;
+    left:123px;
+}
+#b1 {
+    top:288px;
+    left:123px;
+}
+#b5{
+    top:470px;
+    left:110px;
+    width:90px;
+    height:40px;
+    background:#FFFF5B;
+}
+#b5:hover {
+    background: #FFD31E;
+}
+#startBut, #nextBut {
+    position:static;
+    display:block;
+    margin:50px auto;
+    width:220px;
+    height:80px;
+    background:#FFFF5B;
+    font-weight:800;
+    font-family: "Rockwell", serif;
+    font-size: x-large;
+    color: cornflowerblue;
+}
+/*this is let's start*/
+
+#area, #nextLevel, #finished {
+    display:none;
+    background-size: 300%;
+}
+#startCont {
+    background-image: url('https://artmed.ca/wp-content/uploads/2019/05/beach-style-blue-background-1080p_qyvzckhb__f0000.png');
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:none;
+}
+/*the first welcome page color set*/
+
+#note {
+    font-size: 30px;
+    font-family: "Bodoni MT Black", serif;
+    color: peru;
+    margin: 10px;
+}
+/*The classic warehouse puzzle game*/
+
+#congrats, #finishedText {
+    margin-top:120px;
+    color:mediumvioletred;
+    font-family: Lucida Sans Unicode, serif;
+}
+#nextBut {
+    height:70px;
+}
+#fText {
+    padding:25px;
+    font-size:40px;
+    margin-top:120px;
+    color:mediumvioletred;
+    font-family: Lucida Sans Unicode, serif;
+}
+/*Congratulations! You completed the game!*/
+
+#canv{
+    border:1px solid transparent;
+    width: 300px;
+    height: 300px;
+}
+/*this is the square game board canvas*/
