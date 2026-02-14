@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mingmei's game</title>
+    <script type="text/javascript" src="mygame.js" defer ></script>
+    <link rel="stylesheet" type="text/css" href="mygame.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" ></script>
+
+</head>
+<body>
+
+<div id="container">
+    <div id="area">
+            <div id="name">
+                Sokoban <br>
+            </div>
+            <div id="level"> Level 1 </div>
+            <div id="box" width="500" height="500">
+                <canvas id="canv" width="370" height="370" >  </canvas>
+                <button id="b1"> Up </button>
+                <button id="b2"> Down </button>
+                <button id="b3"> Left </button>
+                <button id="b4"> Right </button>
+                <button id="b5"> Reset </button>
+            </div>
+        </div>
+
+        <div id="startCont">
+            <div id="startIt"><hr>
+                Welcome to Sokoban! <hr>
+                <div id="note"> The classic warehouse puzzle game </div>
+                <button id="startBut"> Let's Start </button>
+            </div>
+        </div>
+
+        <div id="nextLevel">
+            <div id="congrats">
+                <div id="congratsText"> </div>
+                <button id="nextBut">  </button>
+            </div>
+        </div>
+
+        <div id="finished">
+            <div id="finishedText">
+                <div id="fText"> Congratulations! <br> You completed the game! <br> 👻👻👻👻👻 <br>🌟 </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
