@@ -171,6 +171,34 @@
          draw();
      });
 
+  // keyboard controls
+$(document).on("keydown", function (event) {
+    // prevent arrow keys from scrolling the page
+    if (["ArrowUp", "ArrowDown", "ArrowLeft", "ArrowRight"].includes(event.key)) {
+        event.preventDefault();
+    }
+
+    if (event.key === "ArrowUp" || event.key.toLowerCase() === "w") {
+        $("#b1").trigger("click");
+    }
+
+    if (event.key === "ArrowDown" || event.key.toLowerCase() === "s") {
+        $("#b2").trigger("click");
+    }
+
+    if (event.key === "ArrowLeft" || event.key.toLowerCase() === "a") {
+        $("#b3").trigger("click");
+    }
+
+    if (event.key === "ArrowRight" || event.key.toLowerCase() === "d") {
+        $("#b4").trigger("click");
+    }
+
+    if (event.key.toLowerCase() === "r") {
+        $("#b5").trigger("click");
+    }
+});
+  
 // these are the functions below://
         function draw() {
 
