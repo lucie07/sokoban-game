@@ -5,7 +5,7 @@ body {
     font-weight:bold;
     position: center;
     background-color: black;
-    background-image: url('https://www.freevector.com/uploads/vector/preview/19290/Free_Sparkle_Background_Vector-06.jpg');
+    background-image: url('https://raw.githubusercontent.com/lucie07/sokoban-game/refs/heads/main/assets/img/sokoban-background.png');
     background-size: cover;
 }
 
@@ -152,7 +152,7 @@ button:hover {
     background-size: 300%;
 }
 #startCont {
-    background-image: url('https://artmed.ca/wp-content/uploads/2019/05/beach-style-blue-background-1080p_qyvzckhb__f0000.png');
+    background-image: url('https://raw.githubusercontent.com/lucie07/sokoban-game/refs/heads/main/assets/img/sokoban-background.png');
 
     background-position: center;
     background-repeat: no-repeat;
