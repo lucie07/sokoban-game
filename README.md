@@ -1,1 +1,3 @@
-# sokoban-game
+# Sokoban
+
+The repository for the Sokoban game.
